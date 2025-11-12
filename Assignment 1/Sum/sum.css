@@ -1,0 +1,102 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Roboto';
+    background: rgb(28, 26, 26);
+    color: #e0e0e0;
+    padding: 20px;
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#sum {
+    max-width: 600px;
+    width: 100%;
+    background: #252525;
+    border: 2px solid #404040;
+    border-radius: 12px;
+    padding: 40px;
+}
+
+h1 {
+    color: #ffffff;
+    margin-bottom: 10px;
+    text-align: center;
+}
+
+#description {
+    color: #b0b0b0;
+    margin-bottom: 30px;
+    text-align: center;
+    line-height: 1.6;
+}
+
+#input-area {
+    margin-bottom: 20px;
+}
+
+label {
+    display: flex;
+    margin-bottom: 10px;
+    color: #d0d0d0;
+    font-weight: 500;
+}
+
+input[type="number"] {
+    width: 100%;
+    padding: 15px;
+    background: #1a1a1a;
+    border: 2px solid #404040;
+    border-radius: 6px;
+    color: #ffffff;
+    font-size: 18px;
+    transition: 0.3s;
+}
+
+input[type="number"] {
+    border-color: #666666;
+}
+
+#buttons {
+    display: flex;
+    gap: 10px;
+}
+
+button {
+    width: 50%;
+    background: #ffffff;
+    color: #1a1a1a;
+    border: 2px solid white;
+    padding: 15px 30px;
+    border-radius: 6px;
+    font-size: 18px;
+    font-weight: 600;
+    margin: 5px 0px;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+button:hover {
+    background: transparent;
+    color: white;
+    transition: 1.5s;
+}
+
+#output {
+    font-family: 'Doto';
+    background: #1a1a1a;
+    padding: 15px;
+    border-radius: 6px;
+    margin-top: 20px;
+    border-left: 4px solid #ffffff;
+}
+
+#result p{
+    color: #c3c3c3;
+}
