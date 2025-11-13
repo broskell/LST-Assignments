@@ -1,5 +1,6 @@
 body {
     margin: 50px 250px;
+    margin-bottom: 0px;
     font-family: monospace;
     background-color: black;
     color: white;
@@ -12,7 +13,7 @@ body {
 #welcome {
     border: 2px solid rgba(255, 255, 255, 0.471);
     padding: 0px;
-    margin-bottom: 100px;
+    margin-bottom: 50px;
 }
 
 #welcome:hover {
@@ -85,4 +86,11 @@ li {
 a {
     text-decoration: none;
     color: white;
+}
+
+img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
 }

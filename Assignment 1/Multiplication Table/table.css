@@ -5,6 +5,7 @@
 }
 
 body {
+    margin-top: 100px;
     font-family: 'Roboto';
     background: rgb(28, 26, 26);
     color: #e0e0e0;
