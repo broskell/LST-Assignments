@@ -1,6 +1,5 @@
 function calculateSum() {
     const n = parseInt(document.getElementById("numberInput").value);
-    const output = document.getElementById("output");
     const result = document.getElementById("result");
 
     if (isNaN(n) || n < 1) {

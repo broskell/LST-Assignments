@@ -24,6 +24,11 @@ body {
     padding: 40px;
 }
 
+#sum:hover {
+    border: 2px solid rgba(255, 255, 255, 0.393);
+    transition: 2s;
+}
+
 h1 {
     color: #ffffff;
     margin-bottom: 10px;
