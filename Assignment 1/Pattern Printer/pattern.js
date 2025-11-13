@@ -1,4 +1,4 @@
-function calculateTable() {
+function calculatePattern() {
     const n = parseInt(document.getElementById("numberInput").value);
     const result = document.getElementById("result");
 
@@ -10,14 +10,15 @@ function calculateTable() {
         return;
     }
 
-    let table = "";
-    for (let i = 1; i <= 10; i++) {
-        table += `${n} × ${i} = ${n * i} <br>`;
+    let pattern = "";
+    for (let i = 1; i <= n; i++) {
+        pattern += `*`.repeat(i) + `<br>`;
     }
 
-    result.innerHTML = `${table}`;
-    result.style.fontSize = "20px"
-    result.style.color = "#3ae320ff";
+    result.innerHTML = `${pattern}`;
+    result.style.fontFamily = "monospace"
+    result.style.fontSize = "30px"
+    result.style.color = "#3ae32084";
 }
 
 function resetSum() {
