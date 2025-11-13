@@ -9,7 +9,6 @@ body {
     background: rgb(28, 26, 26);
     color: #e0e0e0;
     padding: 20px;
-    min-height: 100vh;
     display: flex;
     justify-content: center;
     align-items: center;

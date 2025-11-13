@@ -8,8 +8,8 @@ body {
     font-family: 'Roboto';
     background: rgb(28, 26, 26);
     color: #e0e0e0;
-    padding: 20px;
     display: flex;
+    padding: 20px;
     justify-content: center;
     align-items: center;
 }
@@ -20,7 +20,7 @@ body {
     background: #252525;
     border: 2px solid #404040;
     border-radius: 12px;
-    padding: 40px;
+    padding: 30px 40px 20px 40px;
 }
 
 #sum:hover {
@@ -38,10 +38,9 @@ h1 {
     color: #b0b0b0;
     margin-bottom: 30px;
     text-align: center;
-    line-height: 1.6;
 }
 
-#input-area {
+.input-area {
     margin-bottom: 20px;
 }
 
@@ -90,6 +89,25 @@ button:hover {
     background: transparent;
     color: white;
     transition: 1.5s;
+}
+
+#grading-rules {
+    background: #1a1a1a;
+    font-family: 'Doto';
+    padding: 15px;
+    border-radius: 6px;
+    margin-top: 20px;
+    border-left: 4px solid #666666;
+}
+
+#grading-rules-title {
+    color: #ffffff;
+    font-weight: 600;
+    margin-bottom: 8px;
+}
+
+#grading-rules-text {
+    color: #d0cfcf;
 }
 
 #output {

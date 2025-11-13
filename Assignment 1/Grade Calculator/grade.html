@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Grade Calculator</title>
+    <link rel="stylesheet" href="grade.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Doto:wght@100..900&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+    <script src="grade.js"></script>
+</head>
+<body>
+    <div id="sum">
+        <h1>Grade Calculator</h1>
+        <p id="description">Question 4</p>
+    
+        <div class="input-area">
+            <label class="input-label" for="numberInput">Subject-1 Marks:</label>
+            <input type="number" id="subject1" placeholder="e.g: 99">
+        </div>
+
+        <div class="input-area">
+            <label class="input-label" for="numberInput">Subject-2 Marks:</label>
+            <input type="number" id="subject2" placeholder="e.g: 69">
+        </div>
+
+        <div class="input-area">
+            <label class="input-label" for="numberInput">Subject-3 Marks:</label>
+            <input type="number" id="subject3" placeholder="e.g: 37">
+        </div>
+
+        <div id="buttons">
+        <button onclick="calculateGrade()">Calculate Grade</button>
+        <button onclick="resetSum()">Reset</button>
+        </div>
+
+        <div id="grading-rules">
+            <div id="grading-rules-title">
+                <p>Grading Rules:</p>
+            </div>
+            <div id="grading-rules-text">
+                ≥ 90 → Grade A<br>
+                ≥ 75 → Grade B<br>
+                ≥ 60 → Grade C<br>
+                else → Fail
+            </div>
+        </div>
+
+        <div id="output">
+            <h3>Output</h3>
+            <hr style="margin: 15px 0px;">
+            <div id="result">
+                <p>Example: <br>Input → 95, 88, 90<br>Output →<br>Total: 273<br>Average: 91<br>Grade: A</p>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
