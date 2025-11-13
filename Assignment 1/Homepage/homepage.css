@@ -5,10 +5,19 @@ body {
     color: white;
 } 
 
+#whoami{
+    margin-left: 5px;
+}
+
 #welcome {
-    border: 3px solid white;
+    border: 2px solid rgba(255, 255, 255, 0.471);
     padding: 0px;
     margin-bottom: 100px;
+}
+
+#welcome:hover {
+    border: 2px solid white;
+    transition: 1s;
 }
 
 .cat {
@@ -27,9 +36,18 @@ body {
     margin-bottom: 50px;
 }
 
+p {
+    font-size: large;
+}
+
 #assignment {
-    border: 3px solid white;
+    border: 2px solid rgba(255, 255, 255, 0.471);
     padding: 0px;
+}
+
+#assignment:hover {
+    border: 2px solid white;
+    transition: 1s;
 }
 
 #commands {
@@ -39,9 +57,16 @@ body {
     color: black;
 }
 
-#commands h4 {
-    margin: 5px;
+#commands h3 {
+    margin-top: 0;
+    margin-left: 5px;
+    padding: 25px 0px 5px 0px;
+    line-height: 0;
+}
+
+#ls {
     padding: 0;
+    margin-top: 0;
 }
 
 ul {
@@ -53,10 +78,11 @@ ul {
 
 li {
     list-style: none;
+    font-size: large;
+    margin: 5px 0px;
 }
 
 a {
-    letter-spacing: 1px;
     text-decoration: none;
     color: white;
 }
