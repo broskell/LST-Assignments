@@ -22,5 +22,6 @@ function calculateSum() {
 
 function resetSum() {
     result.innerHTML = `The calculation has been reset.`
+    result.style.fontSize = "25px"
     result.style.color = "#f95c50ff";
 }

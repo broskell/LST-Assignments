@@ -50,3 +50,13 @@ ul {
     color: white;
     margin-bottom: 50px;
 }
+
+li {
+    list-style: none;
+}
+
+a {
+    letter-spacing: 1px;
+    text-decoration: none;
+    color: white;
+}
