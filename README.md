@@ -142,8 +142,8 @@ Weekly Assignments - LST/
 
 1. **Clone the repository**
    ```bash
-   git clone https://github.com/broskell/web-dev-assignment-1.git
-   cd web-dev-assignment-1
+   git clone https://github.com/broskell/Weekly-Assignments---LST.git
+   cd Assignment\ 1/
    ```
 
 2. **Open the Homepage**
@@ -366,4 +366,5 @@ For any questions or feedback about this project:
 ---
 
 *Last Updated: 14th November 2025*
+
 
