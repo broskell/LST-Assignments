@@ -23,7 +23,6 @@ function calculateGrade() {
     const total = s1 + s2 + s3;
     const average = total / 3;
     let grade = "";
-    let gradeClass = "";
 
     if (average >= 90) {
         grade = "A";
