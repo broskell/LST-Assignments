@@ -312,7 +312,7 @@ Possible improvements for future versions:
 
 **Kellampalli Saathvik**
 - GitHub: [@broskell](https://github.com/broskell)
-- Project Repository: [web-dev-assignment-1](https://github.com/broskell/web-dev-assignment-1)
+- Project Repository: [Weekly-Assignments---LST](https://github.com/broskell/Weekly-Assignments---LST)
 
 ## 📅 Assignment Details
 
@@ -366,5 +366,6 @@ For any questions or feedback about this project:
 ---
 
 *Last Updated: 14th November 2025*
+
 
 
