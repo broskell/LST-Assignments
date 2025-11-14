@@ -16,16 +16,18 @@
     <div id="sum">
         <h1>Pattern Printer</h1>
         <p id="description">Question 3</p>
-    
-        <div id="input-area">
-            <label id="input-label" for="numberInput">Enter Number (N):</label>
-            <input type="number" id="numberInput" placeholder="e.g: 5">
-        </div>
 
-        <div id="buttons">
-        <button onclick="calculatePattern()">Print Pattern</button>
-        <button onclick="resetSum()">Reset</button>
-        </div>
+        <form>
+            <div id="input-area">
+                <label id="input-label" for="numberInput">Enter Number (N):</label>
+                <input type="number" id="numberInput" placeholder="e.g: 5">
+            </div>
+            
+            <div id="buttons">
+                <button type="button" onclick="calculatePattern()">Print Pattern</button>
+                <button type="reset" onclick="resetSum()">Reset</button>
+            </div>
+        </form>
     
         <div id="output">
             <h3>Output</h3>
