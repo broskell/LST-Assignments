@@ -99,7 +99,9 @@ Grade: A
 ## 📁 File Structure
 
 ```
-web-dev-assignment-1/
+Weekly Assignments - LST/
+│
+├── Assignment 1
 │
 ├── Grade Calculator/
 │   ├── grade.css           # Styles for Grade Calculator
@@ -184,23 +186,23 @@ web-dev-assignment-1/
 ## 📸 Screenshots
 
 ### Homepage
-![Homepage](./Homepage/Assets/homepage_ss.png)
+![Homepage](./Assignment%201/Homepage/Assets/homepage_ss.png)
 *Main landing page with navigation to all questions*
 
 ### Question 1 - Sum of First N Numbers
-![Sum Calculator](./Homepage/Assets/sum_ss.png)
+![Sum Calculator](./Assignment%201/Homepage/Assets/sum_ss.png)
 *Calculate sum of numbers from 1 to N with Reset functionality*
 
 ### Question 2 - Multiplication Table Generator
-![Multiplication Table](./Homepage/Assets/table_ss.png)
+![Multiplication Table](./Assignment%201/Homepage/Assets/table_ss.png)
 *Generate multiplication tables with clean output display*
 
 ### Question 3 - Pattern Printer
-![Pattern Printer](./Homepage/Assets/pattern_ss.png)
+![Pattern Printer](./Assignment%201/Homepage/Assets/pattern_ss.png)
 *Print star patterns using nested loops*
 
 ### Question 4 - Grade Calculator
-![Grade Calculator](./Homepage/Assets/grade_ss.png)
+![Grade Calculator](./Assignment%201/Homepage/Assets/grade_ss.png)
 *Calculate grades with color-coded results and grading rules*
 
 ## 📚 Learning Outcomes
@@ -364,3 +366,4 @@ For any questions or feedback about this project:
 ---
 
 *Last Updated: 14th November 2025*
+
