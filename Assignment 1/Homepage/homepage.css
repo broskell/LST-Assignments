@@ -85,7 +85,7 @@ li {
 
 ul li a:hover {
     padding-bottom: 5px;
-    border-bottom: 1px solid white;
+    border-bottom: 1px solid black;
     transition: 0.75s;
 }
 
