@@ -101,7 +101,7 @@ Grade: A
 ```
 Weekly Assignments - LST/
 │
-├── Assignment 1
+├── Assignment 1/
 │
 ├── Grade Calculator/
 │   ├── grade.css           # Styles for Grade Calculator
@@ -366,6 +366,7 @@ For any questions or feedback about this project:
 ---
 
 *Last Updated: 14th November 2025*
+
 
 
 
